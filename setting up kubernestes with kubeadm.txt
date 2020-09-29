@@ -9,7 +9,7 @@ sudo add-apt-repository \
    stable"
 
 sudo apt-get update
-sudo apt-get install -y docker-ce=18.06.1~ce~3-0~ubuntu
+sudo sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo apt-mark hold docker-ce
 
     #Verify that Docker is up and running with:
@@ -88,3 +88,5 @@ NAME            STATUS   ROLES    AGE   VERSION
 ip-10-0-1-101   Ready    master   85s   v1.12.2
 ip-10-0-1-102   Ready    &lt;none>   63s   v1.12.2
 ip-10-0-1-103   Ready    &lt;none>   60s   v1.12.2
+
+ssh ubuntu@18.216.100.248 -i C:\Users\tumen\Downloads\AverlyKP.pem
